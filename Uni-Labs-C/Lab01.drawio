@@ -1,0 +1,142 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.3">
+  <diagram name="Страница — 1" id="ilHIyTeCXZgGrMTA47rR">
+    <mxGraphModel dx="1158" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QJ952k-e-XkikoZNpufP-1" value="if&amp;nbsp;&lt;div&gt;(x &amp;gt;= 0 &amp;amp;&amp;amp; x &amp;lt; 7)&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="239" y="340" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QJ952k-e-XkikoZNpufP-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QJ952k-e-XkikoZNpufP-2" target="QJ952k-e-XkikoZNpufP-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="329" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJ952k-e-XkikoZNpufP-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QJ952k-e-XkikoZNpufP-2" target="QJ952k-e-XkikoZNpufP-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="604" y="470" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="680" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJ952k-e-XkikoZNpufP-2" value="&amp;nbsp;else if&amp;nbsp;&lt;div&gt;((x &amp;lt;= -10) || (x &amp;gt;= 11))&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="419" y="430" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QJ952k-e-XkikoZNpufP-5" value="Початок" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="279" y="20" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJ952k-e-XkikoZNpufP-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QJ952k-e-XkikoZNpufP-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="329" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJ952k-e-XkikoZNpufP-6" value="&amp;nbsp; int x, y;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="269" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJ952k-e-XkikoZNpufP-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QJ952k-e-XkikoZNpufP-5" target="QJ952k-e-XkikoZNpufP-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="319" y="200" as="sourcePoint" />
+            <mxPoint x="369" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="329" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJ952k-e-XkikoZNpufP-13" value="&amp;nbsp;y = -6 * x * x + 8;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="89" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJ952k-e-XkikoZNpufP-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QJ952k-e-XkikoZNpufP-1" target="QJ952k-e-XkikoZNpufP-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="229" y="380" as="sourcePoint" />
+            <mxPoint x="369" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="149" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJ952k-e-XkikoZNpufP-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QJ952k-e-XkikoZNpufP-1" target="QJ952k-e-XkikoZNpufP-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="319" y="320" as="sourcePoint" />
+            <mxPoint x="509" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="509" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJ952k-e-XkikoZNpufP-16" value="printf(&quot;y = -6x^2 + 8 = %.2ld\n&quot;, y);" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="74" y="640" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QJ952k-e-XkikoZNpufP-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QJ952k-e-XkikoZNpufP-13" target="QJ952k-e-XkikoZNpufP-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="319" y="620" as="sourcePoint" />
+            <mxPoint x="369" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJ952k-e-XkikoZNpufP-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QJ952k-e-XkikoZNpufP-22" target="QJ952k-e-XkikoZNpufP-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QJ952k-e-XkikoZNpufP-22" value="&amp;nbsp;else if&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="510" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QJ952k-e-XkikoZNpufP-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QJ952k-e-XkikoZNpufP-23" target="QJ952k-e-XkikoZNpufP-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QJ952k-e-XkikoZNpufP-23" value="printf(&quot;y = -3x/7 + 10 = %.2ld\n&quot;, y);" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="268" y="640" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QJ952k-e-XkikoZNpufP-24" value="y = -3 * x / 7 + 10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="293" y="525" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="QJ952k-e-XkikoZNpufP-32" value="printf(&quot;y = -6x^2 + 8 = %.2ld\n&quot;, y);" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="605" y="640" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QJ952k-e-XkikoZNpufP-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QJ952k-e-XkikoZNpufP-16" target="QJ952k-e-XkikoZNpufP-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="880" as="sourcePoint" />
+            <mxPoint x="299" y="830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJ952k-e-XkikoZNpufP-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QJ952k-e-XkikoZNpufP-32" target="QJ952k-e-XkikoZNpufP-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="760" as="sourcePoint" />
+            <mxPoint x="399" y="830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJ952k-e-XkikoZNpufP-44" value="Ні" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="465" y="358" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QJ952k-e-XkikoZNpufP-45" value="Так" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="358" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QJ952k-e-XkikoZNpufP-46" value="Так" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="448" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QJ952k-e-XkikoZNpufP-47" value="Ні" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="615" y="448" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QJ952k-e-XkikoZNpufP-48" value="Кінець&lt;div&gt;return 0;&lt;/div&gt;" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="303" y="750" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJ952k-e-XkikoZNpufP-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QJ952k-e-XkikoZNpufP-52" target="QJ952k-e-XkikoZNpufP-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QJ952k-e-XkikoZNpufP-52" value="printf(&quot;Welche number x: &quot;);&lt;div&gt;scanf_s(&quot;%ld&quot;, &amp;amp;x);(&quot;%ld&quot;, &amp;amp;x);&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="229.5" y="200" width="199" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="QJ952k-e-XkikoZNpufP-60" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QJ952k-e-XkikoZNpufP-24" target="QJ952k-e-XkikoZNpufP-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="650" as="sourcePoint" />
+            <mxPoint x="320" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
