@@ -1,22 +1,23 @@
+#define _CRT_SECURE_NO_WARNINGS 
 #include <stdio.h> //библиотека С
 
 int main() {
     int x, y;
 
     printf("Введите значение x: "); //выводит на консоль запрос пользователю 
-    scanf("%d", &x); //принимает значение от пользователя 
+    scanf_s("%ld", &x);("%ld", &x); //принимает значение от пользователя 
 
     //цикл if-else
     if (x >= 0 && x < 7) { 
         y = -6 * x * x + 8;
-        printf("y = -6x^2 + 8 = %d\n", y); 
+        printf("y = -6x^2 + 8 = %.2ld\n", y);
     } 
     else if ((x <= -10) || (x >= 11)) {
         y = -3 * x / 7 + 10; // целочисленное деление
-        printf("y = -3x/7 + 10 = %d\n", y);
+        printf("y = -3x/7 + 10 = %.2ld\n", y);
     } 
     else {
-        printf("Значение x не входит в область определения функции.\n");
+        printf("kein antwort\n");
     }
 
     return 0; //возвращает 0
