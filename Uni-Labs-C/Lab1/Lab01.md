@@ -1,3 +1,6 @@
+# с булевыми операторами 
+
+```c
 #define _CRT_SECURE_NO_WARNINGS 
 #include <stdio.h> //библиотека С
 
@@ -21,3 +24,4 @@ int main() {
     }
     return 0; //возвращает 0
 }
+```
