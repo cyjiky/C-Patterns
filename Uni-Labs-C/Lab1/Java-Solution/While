@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        int x, y;
+        System.out.println("Welche Zahl x: ");
+        Scanner scan = new Scanner(System.in);
+        x = scan.nextInt();
+
+        while (x < 0) {
+            if (x <= -10) {
+                y = -3 * x / 7 + 10;
+                System.out.println("y = -3x/7 + 10 = " + y);
+                break;
+            } else {
+                System.out.println("kein antwort");
+                break;
+            }
+        }
+        
+        while (x >= 0) {
+            if (x < 7) {
+                y = -6 * x * x + 8;
+                System.out.println("y = -6 * x * x + 8 = " + y);
+                break;
+            } else if (x >= 7) {
+                if (x < 11) {
+                    System.out.println("kein antwort");
+                    break;
+                } else {
+                    y = -3 * x / 7 + 10;
+                    System.out.println("y = -3x/7 + 10 = " + y);
+                    break;
+                }
+            }
+        }
+    }
+}
