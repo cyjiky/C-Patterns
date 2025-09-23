@@ -1,4 +1,5 @@
 # 👾 1 Solution
+## Kurzfassung
 
 ```java
 import java.util.Scanner;
@@ -49,6 +50,7 @@ public class Main {
 ```
 
 # 👾 2 Solution
+## Langefassung
 
 ```
 import java.util.Scanner;
