@@ -1,4 +1,4 @@
-#👾 1 Solution
+# 👾 1 Solution
 
 ```java
 import java.util.Scanner;
@@ -48,7 +48,7 @@ public class Main {
 }
 ```
 
-#👾 2 Solution
+# 👾 2 Solution
 
 ```
 import java.util.Scanner;
