@@ -52,7 +52,7 @@ public class Main {
 # 👾 2 Solution
 ## Langefassung
 
-```
+```java
 import java.util.Scanner;
 
 public class SecondTry {
