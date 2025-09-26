@@ -1,3 +1,6 @@
+#
+
+```c
 #include <stdio.h>
 int main() {
     int x, y;
@@ -33,3 +36,4 @@ int main() {
     }
     return 0;
 }
+```
