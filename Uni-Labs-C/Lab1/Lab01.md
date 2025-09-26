@@ -2,7 +2,7 @@
 
 ```c
 #define _CRT_SECURE_NO_WARNINGS 
-#include <stdio.h> //библиотека С
+#include <stdio.h> 
 
 int main() {
     int x, y;
