@@ -38,5 +38,6 @@ int main() {
             printf("y = -6x^2 + 8 = %d\n", y);
             break;
     }
+    return 0;
 }
 ```
