@@ -37,8 +37,6 @@ int main() {
             y = -6 * x * x + 8;
             printf("y = -6x^2 + 8 = %d\n", y);
             break;
-        default:
-            printf("kein antwort\n");
     }
 }
 ```
