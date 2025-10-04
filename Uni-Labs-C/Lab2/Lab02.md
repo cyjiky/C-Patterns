@@ -14,10 +14,12 @@ int main() {
     for (int i = 1; i <= R; i++) {
         double Num = 0.0;
         double sum = 0.0;
+        double SinJ = 0.0;
 
         // Суммируем j + sin(j) от j = 1 до i
         for (int j = 1; j <= i; j++) {
-            Num = j + sin(j);
+            SinJ = sin(j);
+            Num = j + SinJ;
             sum += Num;
             //sum += j + sin(j);
         }
