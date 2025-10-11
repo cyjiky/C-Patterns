@@ -1,0 +1,48 @@
+## 👾 динамическое программирование (while)
+
+```c
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    int n;
+
+    double P = 1.0;
+    int ops = 0;
+
+    double cache = 0;
+
+
+    printf("Welch Zahl n: ");
+    scanf_s("%d", &n);
+
+    int i = 1;
+    while (i <= n) {
+        double sumJ = 0;
+
+        double SIN = sin(i);
+        double plus = i + SIN;
+        ops += 2;
+
+        cache += plus;
+        ops ++;
+
+        double k = i * i;
+        double zahl = k + 1;
+        ops += 2;
+
+        double term = cache / zahl;
+        ops ++;
+
+        P *= term;
+        ops ++;
+
+        i++;
+    }
+
+    printf("P = %.7f\n", P);
+    printf("ops: %d\n", ops);
+
+    return 0;
+}
+```
