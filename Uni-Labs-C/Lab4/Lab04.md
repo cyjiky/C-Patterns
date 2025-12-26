@@ -3,7 +3,6 @@
 #define ROW 10
 #define COL 10
 
-
 int Arr[ROW][COL] = {
    {100, 99, 98, 97, 96, 95, 94, 93, 92, 91},
    { 90, 89, 88, 87, 86, 85, 84, 83, 82, 81},
@@ -17,12 +16,10 @@ int Arr[ROW][COL] = {
    { 10,  9,  8,  7,  6,  5,  4,  3,  2,  1}
 };
 
-
 int Row(int p) {
    int left = 0;
    int right = ROW - 1;
    int mid = 0;
-
 
    while (left <= right) {
        mid = left + (right - left) / 2;
@@ -37,7 +34,6 @@ int Row(int p) {
    return -1;
 }
 
-
 int Col(int rowId, int p) {
    int left = 0;
    int right = COL - 1;
@@ -45,12 +41,10 @@ int Col(int rowId, int p) {
    int mid = 0;
    int result = -1;
 
-
    while (left <= right) {
        mid = left + (right - left) / 2;
        int value = Arr[rowId][mid];
        val++;
-
 
        if (value == p) {
            result = mid;
@@ -69,7 +63,6 @@ int Col(int rowId, int p) {
    return -1;
 }
 
-
 int main() {
    for (int i = 0; i < ROW; i++) {
        for (int j = 0; j < COL; j++) {
@@ -78,7 +71,6 @@ int main() {
        printf("\n");
    }
    printf("\nSuchen [0, 5]:\n");
-
 
    for (int p = 0; p <= 5; p++) {
        int targetRow = Row(p);
